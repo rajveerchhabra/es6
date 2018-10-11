@@ -6,6 +6,6 @@ function order(x,y) {
     x=y;
     y=tmp;
           }
- console.log(tmp===x);
+ console.log(tmp===x);  
  return [x,y];
-                    } // gibberish
+                    
