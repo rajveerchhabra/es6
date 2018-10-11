@@ -7,7 +7,7 @@ function order(x,y) {
     x=y;
     y=tmp;
           }
- console.log(tmp===x);  
+ console.log(tmp===x); // let scope is onlly limited to a block, shows error while printing let outside the block 
  return [x,y];
                     
 /* using var */
@@ -15,6 +15,6 @@ function func {
      if (true) {
        var tmp = 123;
      }
-     console.log(tmp);
+     console.log(tmp); //will print the value, as scope of var is through the whole funtion
    }
       
